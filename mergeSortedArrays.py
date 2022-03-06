@@ -24,6 +24,7 @@ def merge(nums1, nums2):
         nums1.sort()
         print("Sorted and Merged Array:",nums1)
 
+        ## Actual leetcode code
         # p1 = m - 1
         # p2 = n - 1
     
