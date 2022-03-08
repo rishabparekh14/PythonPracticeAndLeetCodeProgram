@@ -11,7 +11,7 @@ def removeDuplicates(nums):
         
         
         ## Using a new array approach
-        
+
         # uniqueList = []
         # count = 0
         # for x in nums:
@@ -31,6 +31,6 @@ def removeDuplicates(nums):
         # return len(nums)
 
 
-numbers = [1,1,2]
+numbers = [1,2]
 result = removeDuplicates(numbers)
 print(result)
