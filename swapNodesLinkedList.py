@@ -45,8 +45,20 @@ class Solution:
         
         
         return head
-         
-        
+
+
+    
+     ## Alternate solution     
+    #   currentNode = head
+    #     endNode = head
+    #     for i in range(k-1):
+    #         currentNode = currentNode.next
+    #     forwardNode = currentNode.next
+    #     while forwardNode:
+    #         forwardNode = forwardNode.next
+    #         endNode = endNode.next
+    #     currentNode.val, endNode.val = endNode.val, currentNode.val
+    #     return head    
             
         
                     
