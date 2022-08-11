@@ -29,4 +29,24 @@ class Solution:
             current.next = None
         return head
 
+## Alternate better solution
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+# class Solution:
+#     def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
+#         dummy = ListNode(0)
+#         dummy.next =head
+#         currentNode = dummy
+#         endNode = dummy
+#         for i in range(n+1):
+#             currentNode = currentNode.next
+#         while currentNode:
+#             currentNode = currentNode.next
+#             endNode = endNode.next
+#         if endNode.next!=None:
+#             endNode.next = endNode.next.next
+#         return dummy.next
             
